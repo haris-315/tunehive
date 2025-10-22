@@ -95,7 +95,7 @@ export default function SplashScreen({ navigation }: any) {
 
             {/* Animated Button */}
             <Animated.View style={{ transform: [{ scale: buttonScale }], width: '100%' }}>
-                <TouchableOpacity onPress={() => navigation.goBack()}><View style={styles.button}>
+                <TouchableOpacity onPress={() => navigation.navigate("Home")}><View style={styles.button}>
                     <View style={styles.leading}>
                         <Icon name="fast-forward" size={16} color="white" />
                     </View>
