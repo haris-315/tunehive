@@ -80,6 +80,9 @@ export default function HomePage() {
     };
 
     return (
+
+
+
         <View style={styles.bg}>
             <LinearGradient
                 colors={[TuneHivePalette.colors.deepOlive, TuneHivePalette.colors.primaryDarkGreen, TuneHivePalette.colors.accentLimeGreen, TuneHivePalette.colors.primaryDarkGreen, TuneHivePalette.colors.primaryDarkGreen,]}
